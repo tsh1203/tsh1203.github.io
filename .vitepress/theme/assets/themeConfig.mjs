@@ -277,7 +277,7 @@ export const themeConfig = {
       // 倒计时日期
       data: {
         name: "开学",
-        date: "2025-09-01",
+        date: "2025-03-02",
       },
     },
     // 站点数据
