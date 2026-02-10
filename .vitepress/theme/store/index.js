@@ -51,7 +51,7 @@ export const mainStore = defineStore("main", {
       lastScrollY: 0,
       // 站点背景
       backgroundType: "patterns",
-      backgroundUrl: "https://s21.ax1x.com/2024/12/30/pAz9egS.webp",
+      backgroundUrl: "https://tsh1203.github.io/images/background.png",
     };
   },
   getters: {},
