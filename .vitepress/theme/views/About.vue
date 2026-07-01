@@ -52,8 +52,8 @@
       <!-- 性格 -->
       <div class="about-item character" style="--color: #4298b4">
         <span class="tip">性格</span>
-        <span class="title2">竞选者</span>
-        <span class="title2" style="color: var(--color)">ENFP-T</span>
+        <span class="title2">调停者</span>
+        <span class="title2" style="color: var(--color)">INFP-T</span>
         <span class="more">
           在
           <a href="https://www.16personalities.com/ch/" target="_blank">16personalities</a>
@@ -77,7 +77,7 @@
         </div>
         <div class="about-item">
           <span class="tip">音乐偏好</span>
-          <span class="title2">日语流行，音游曲</span>
+          <span class="title2">日语流行，音游曲，术力口</span>
           <div class="image-desc">
             <span class="left">一起欣赏更多音乐</span>
           </div>
