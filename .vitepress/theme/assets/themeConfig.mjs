@@ -320,9 +320,9 @@ export const themeConfig = {
   music: {
     enable: false,
     // url
-    url: "https://api-meting.example.com",
+    url: "https://api.injahow.cn/meting/",
     // id
-    id: 983883649,
+    id: 17544562330,
     // netease / tencent / kugou
     server: "netease",
     // playlist / album / song
