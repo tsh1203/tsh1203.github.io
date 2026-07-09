@@ -318,7 +318,7 @@ export const themeConfig = {
   // 音乐播放器
   // https://github.com/imsyy/Meting-API
   music: {
-    enable: false,
+    enable: true,
     // url
     url: "https://api.injahow.cn/meting/",
     // id
