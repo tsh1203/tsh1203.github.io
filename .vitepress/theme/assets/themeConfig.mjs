@@ -1,4 +1,3 @@
-tsh1203/tsh1203.github.io// 主题配置
 export const themeConfig = {
   // 站点信息
   siteMeta: {
