@@ -1,4 +1,4 @@
-// 主题配置
+tsh1203/tsh1203.github.io// 主题配置
 export const themeConfig = {
   // 站点信息
   siteMeta: {
@@ -237,7 +237,7 @@ export const themeConfig = {
   comment: {
     enable: false,
     // 评论系统选择
-    // artalk / twikoo
+    // artalk / twikoo / giscus
     type: "artalk",
     // artalk
     // https://artalk.js.org/
@@ -254,6 +254,26 @@ export const themeConfig = {
       // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
       region: "ap-shanghai",
       lang: "zh-CN",
+    },
+    // giscus（基于 GitHub Discussions 的评论系统）
+    // https://giscus.app/zh-CN
+    giscus: {
+      // 仓库，格式为 "用户名/仓库名"，例如 "tsh1203/tsh1203.github.io"
+      repo: "tsh1203/tsh1203.github.io",
+      // 仓库 ID，需要到 giscus.app 生成
+      repoId: "R_kgDONXtPRA",
+      // Discussions 分类名称，例如 "Announcements" 或自建的 "Comments"
+      category: "Announcements",
+      // 分类 ID，需要到 giscus.app 生成
+      categoryId: "DIC_kwDONXtPRM4DAz8d",
+      // 页面与讨论的映射方式：pathname / url / title / og:title 等
+      mapping: "pathname",
+      // 评论框位置：top / bottom
+      inputPosition: "top",
+      lang: "zh-CN",
+      // 浅色 / 深色主题下 giscus 使用的主题名
+      themeLight: "light",
+      themeDark: "dark_dimmed",
     },
   },
   // 侧边栏
