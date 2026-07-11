@@ -295,8 +295,8 @@ export const themeConfig = {
       enable: true,
       // 倒计时日期
       data: {
-        name: "国庆",
-        date: "2026-10-01",
+        name: "CSP 第一轮",
+        date: "2026-09-19",
       },
     },
     // 站点数据
