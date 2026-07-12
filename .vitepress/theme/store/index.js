@@ -50,7 +50,7 @@ export const mainStore = defineStore("main", {
       // 上次滚动位置
       lastScrollY: 0,
       // 站点背景
-      backgroundType: "image",
+      backgroundType: "patterns",
       backgroundUrl: "https://tsh1203.github.io/images/background.png",
     };
   },
