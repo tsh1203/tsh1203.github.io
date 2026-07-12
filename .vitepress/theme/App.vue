@@ -47,7 +47,7 @@ import { calculateScroll, specialDayGray } from "@/utils/helper";
 
 const route = useRoute();
 const store = mainStore();
-const { frontmatter, page, theme } = useData();
+const { frontmatter, page, theme, isDark } = useData();
 const { loadingStatus, footerIsShow, themeValue, themeType, backgroundType, fontFamily, fontSize } =
   storeToRefs(store);
 
@@ -96,9 +96,11 @@ const changeSiteThemeType = () => {
     const autoThemeClass = systemPrefersDark ? themeClasses.dark : themeClasses.light;
     htmlElement.classList.add(autoThemeClass);
     themeValue.value = autoThemeClass;
+    isDark.value = systemPrefersDark;
   } else if (themeClasses[themeType.value]) {
     htmlElement.classList.add(themeClasses[themeType.value]);
     themeValue.value = themeClasses[themeType.value];
+    isDark.value = themeType.value === "dark";
   }
   if (backgroundType.value === "image") {
     htmlElement.classList.add("image");
