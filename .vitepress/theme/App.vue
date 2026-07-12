@@ -89,13 +89,6 @@ const changeSiteThemeType = () => {
   Object.values(themeClasses).forEach((themeClass) => {
     htmlElement.classList.remove(themeClass);
   });
-  htmlElement.classList.remove("image");
-  // 壁纸模式下强制使用深色主题，忽略当前明暗设置
-  if (backgroundType.value === "image") {
-    htmlElement.classList.add("dark", "image");
-    themeValue.value = "dark";
-    return;
-  }
   // 添加新的 class
   if (themeType.value === "auto") {
     // 根据当前操作系统颜色方案更改明暗主题
@@ -106,6 +99,11 @@ const changeSiteThemeType = () => {
   } else if (themeClasses[themeType.value]) {
     htmlElement.classList.add(themeClasses[themeType.value]);
     themeValue.value = themeClasses[themeType.value];
+  }
+  if (backgroundType.value === "image") {
+    htmlElement.classList.add("image");
+  } else {
+    htmlElement.classList.remove("image");
   }
 };
 
