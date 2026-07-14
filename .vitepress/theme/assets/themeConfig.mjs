@@ -360,6 +360,7 @@ export const themeConfig = {
       "icp",
       "author",
       "rss",
+      "local-file",
       "cc",
       "power",
       "social-link",
