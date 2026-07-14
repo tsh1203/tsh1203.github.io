@@ -116,6 +116,7 @@ export const themeConfig = {
         { text: "全部分类", link: "/pages/categories", icon: "folder" },
         { text: "全部标签", link: "/pages/tags", icon: "hashtag" },
         { text: "全部题单", link: "/pages/training", icon: "folder" },
+        { text: "资料下载", link: "/pages/resources", icon: "folder" },
       ],
     },
     {
