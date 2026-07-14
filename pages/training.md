@@ -19,5 +19,6 @@
 - 2025.8.22 测试：https://www.luogu.com.cn/training/837180
 - 2025.8.23 测试：https://www.luogu.com.cn/training/837934
 - 冬令营：https://www.luogu.com.cn/training/951334
+- 夏令营：https://www.luogu.com.cn/training/1042143
 
 **感谢 [zxx](https://www.luogu.com.cn/user/1167457)&[WL](https://www.luogu.com.cn/user/851495) 做的整理工作。**
